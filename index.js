@@ -11,7 +11,7 @@ const matching = (numbers) => {
   }
 };
 
-const normalizePhone = (value) => {
+const normalizephoneworld = (value) => {
   if (!value) {
     return value;
   }
@@ -53,4 +53,4 @@ const normalizePhone = (value) => {
   return `+ ${ onlyNums }`;
 };
 
-export default normalizePhone;
+export default normalizephoneworld;
